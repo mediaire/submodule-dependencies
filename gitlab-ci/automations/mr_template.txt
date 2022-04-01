@@ -1,0 +1,10 @@
+### Summary
+[Describe what's in this MR]
+
+### Code Review
+- [ ] I have reviewed this merge request according to our
+      [guidelines][cr_guidelines] and verified that all points on the
+      [code-review-checklist][cr_checklist] are fulfilled.
+
+[cr_guidelines]: https://mediaire.atlassian.net/wiki/spaces/TD/pages/1185153067/SW+00+AA+Code+Reviews
+[cr_checklist]: https://mediaire.atlassian.net/wiki/spaces/TD/pages/1185153067/SW+00+AA+Code+Reviews#3-Code-Review-%2F-Merge-Request-Checklist

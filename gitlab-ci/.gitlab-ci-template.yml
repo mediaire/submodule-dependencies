@@ -1,0 +1,23 @@
+stages:
+  - pre_release
+
+check_submodules:
+  image: docker:stable
+  services:
+    - docker:dind
+  before_script:
+    - docker info
+    - apk --update add grep git
+    - apk add --update ed make py-pip curl bash
+    - apk add --update alpine-sdk python3-dev
+  stage: pre_release
+  script:
+    - git clone https://github.com/mediaire/submodule-dependencies.git
+    - cp submodule-dependencies/gitlab_ci/automations/check_submodule_refs.py .
+    - python3 check_submodule_refs.py
+  only:
+    refs:
+      - tags
+      - merge_requests
+  needs: []
+

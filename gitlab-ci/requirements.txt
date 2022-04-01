@@ -1,0 +1,4 @@
+python-dotenv
+python-gitlab==3.0.0
+PyYAML>=3.13
+python-gitlab-submodule==0.2.1

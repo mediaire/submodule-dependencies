@@ -1,0 +1,3 @@
+[submodule "project/_mediaire_toolbox"]
+	path = project/_mediaire_toolbox
+	url = git@github.com:mediaire/mediaire_toolbox.git

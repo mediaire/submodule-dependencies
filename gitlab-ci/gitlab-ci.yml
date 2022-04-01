@@ -1,0 +1,7 @@
+scheduled_md_commons_update:
+  image: python:3.8-buster
+  script:
+  - make init_venv
+  - make update_md_commons
+  only:
+  - schedules

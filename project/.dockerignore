@@ -1,0 +1,8 @@
+# ignore everything except what we explicitly want to have included
+*
+
+!_mediaire_toolbox/mediaire_toolbox
+!_mediaire_toolbox/requirements.txt
+!mediaire_toolbox
+
+!main.py
