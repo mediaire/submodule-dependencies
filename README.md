@@ -2,7 +2,9 @@
 
 Supplementary material for the [PyCon '22][pycon_22] Talk [_Quitting pip: How
 we use git submodules to manage internal dependencies that require fast
-iteration_][pycon_talk].
+iteration_][pycon_talk]. The slides are
+[in this repository](./pycon-2022_quitting-pip.pdf), a full write-up is
+available [here][pycon_blog].
 
 At [medi**ai**re][mediaire] we use git submodules to distribute internal
 dependencies across projects. This repository shows you how we use it in our
@@ -90,3 +92,4 @@ group's members.
 [pycon_talk]: https://2022.pycon.de/program/B3HC8S/
 [mediaire]: https://www.mediaire.de/
 [semver]: https://semver.org/
+[pycon_blog]: https://philippstephan.de/blog/posts/pycon22-talk/
